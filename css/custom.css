@@ -1,0 +1,193 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/********************** NAvigation bar *****************/
+#navbar
+{
+    
+
+    margin-left: 40%;
+}
+
+
+#navbar a
+{
+    display: block;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#navbar a:hover
+{
+    background: rgb(255, 219, 88);
+}
+
+
+
+
+
+/******************* Carousel Features ***************/
+
+#brand
+{
+    display: block;
+    position: absolute;
+    left : 25%;
+    top: 5%;
+    z-index: 1000;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+
+
+#brand p{
+    font-size: 50px;
+    color: yellow;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+
+
+
+
+
+
+#btnModal
+{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left : 2%;
+    z-index: 1000;
+    
+}
+
+#btnBottomCookBook
+{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+}
+
+
+.carousel-caption{
+    background-color: rgba(255, 219, 88, 0.5);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+
+/************************** Features ********************/
+
+
+.feature .col-lg-4 {
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{
+    margin: 3rem 0;
+}
+
+/******************************** Footer **********************/
+.footer-section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+@media (min-width: 1200px) {
+    .feature-heading {
+        margin-top: 10rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .feature {
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+/* ********************************************************************************************* */
+/* Footer                                                                                        */
+/* ********************************************************************************************* */
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e1b1a;
+    padding-left: 22px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#footer p{
+    color: #adadad;
+}
+
+#footer a{
+    color: #adadad
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+
+/* ********************************************************************************************* */
+/* copyright                                                                                        */
+/* ********************************************************************************************* */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: dimgrey;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+

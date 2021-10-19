@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Food Blog</title>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="fonts/css/all.css">
+    </head>
+    
+    <body>
+        
+       <header id="header">
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+               <a href="#" class="navbar-brand"><i class="fas fa-utensils" h1></i></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               
+               <div class="collapse navbar-collapse " id="navbar">
+                   <div class="navbar-nav ms-auto">
+                       <a href="#" class="nav-item nav-link">Home</a>
+                       <a href="#features" class="nav-item nav-link">Features</a>
+                       <a href="#articles" class="nav-item nav-link">Articles</a>
+                   </div>
+               </div>
+           </nav>
+        </header>
+        
+        <main>
+            <div id="carouselImg" class="carousel slide carouselImg" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselImg" data-slide-to="0"></li>
+                    <li data-target="#carouselImg" data-slide-to="1"></li>
+                    <li data-target="#carouselImg" data-slide-to="2"></li>
+                    
+                </ol>
+                
+                <div id="brand">
+                    <p> F<i class="fas fa-cookie"></i><i class="fas fa-cookie"></i>DIES</p>
+                </div>
+                
+                <div id="btnModal">
+                    <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Cook Book</button>
+                </div>
+                <div id="carousel" class="carousel-inner align-items-center">
+                    
+                    <div class="carousel-item active">
+                        <video class="img-fluid" autoplay loop muted>
+                            <source
+                              src="images/coffee.mp4"
+                              type="video/mp4"
+                            />
+                        </video>
+                        <div class="carousel-caption">
+                            <h1>Dark Brew</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <video class="img-fluid" autoplay loop muted>
+                    <source
+                          src="images/salmon.mp4"
+                          type="video/mp4"
+                        />
+                    </video>
+                        <div class="carousel-caption">
+                            <h1>International Cuisine</h1>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <video class="img-fluid" autoplay loop muted>
+                            <source
+                              src="images/dessert.mp4"
+                              type="video/mp4"
+                            />
+                      </video>
+                        <div class="carousel-caption">
+                            <h1>Desserts</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             <section class="bg-warning text-light p-5">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mb-md-0">Sign Up On Our Newsletter</h3>
+                    
+                    <div class="input-group news-input">
+                        <input type="text" class="form-control" placeholder="Enter Email">
+                        <button class="btn btn-dark btn-lg" type="button" >Button</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+            <div class="container feature" id="features">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/cheese.jpg" class="img-thumbnail rounded-circle" width="160" height="160"/>
+                        <h2>Cheese</h2>
+                        <p>The richness found  on cheese</p>
+                        <p><a href="#" class="btn btn-warning" role="button">More</a></p>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <img src="images/wine.jpg" class="img-thumbnail rounded-circle" width="160" height="160"/>
+                        <h2>Wine</h2>
+                        <p>Smell your wine. Sniff it, taste it, and think about it.</p>
+                        <p><a href="#" class="btn btn-warning" role="button">More</a></p>
+                    </div>
+                    
+                    
+                    <div class="col-lg-4">
+                        <img src="images/fruit-tart.jpg" class="img-thumbnail rounded-circle" width="160" height="160"/>
+                        <h2>Fruit tart</h2>
+                        <p>How do you keep fruit tarts from getting rotten?</p>
+                        <p><a href="#" class="btn btn-warning" role="button">More</a></p>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="section-divider"/>
+            
+            <section id="trivia" class="p-5">
+                                                                                                                
+                <div class="container">
+                    <h2 class="text-center mb-4">Quiz for Foodies</h2>
+
+                    <div class="accordion accordion-flush" id="trivia">
+                        
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button class="accordion-button collapsed" 
+                                  type="button" 
+                                  data-bs-toggle="collapse" 
+                                  data-bs-target="#flush-collapseOne">
+                            Which is the most exotic spice in the world?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" 
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#trivia">
+                            <div class="accordion-body">Anarda <span class="text-muted">isactually a dried seed of the wild pomegranate plants.it is a common igredient in chutneys and very popular in indian cuisine.</span></div>
+                        </div>
+                      </div>
+
+                        
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed"
+                                  type="button" 
+                                  data-bs-toggle="collapse" 
+                                  data-bs-target="#flush-collapseTwo" >
+                            Which fruit has the nickname  of ‘king of fruits’?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#trivia">
+                            <div class="accordion-body">Mango.<span class="text-muted"> It's known  as the king of fruits because of are excellent source of potassium and other nutrients. Are high in mangiferin ,a potent of antioxidant.</span></div>
+                        </div>
+                      </div>
+
+                        
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" 
+                                  type="button"
+                                  data-bs-toggle="collapse" 
+                                  data-bs-target="#flush-collapseThree" >
+                            Who is the founder of the fast-food chicken chain KFC?
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree"
+                             class="accordion-collapse collapse"
+                             data-bs-parent="#trivia">
+                          <div class="accordion-body">It was founded by Colonel Harland  David Sanders.</div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+           
+            <hr class="section-divider"/>
+            
+            <div class="container" id="articles">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">What is Autralian Wagyu beef?<br><span class="text-muted">The Australian Wagyu Association is the largest breed association outside Japan.Both fullblood and Wagyu-cross cattle are farmed in Australia for domestic and overseas,markets.</span></h2>
+                        <p class="lead"><a href="#" class="btn btn-warning" role="button">More</a></p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/220px-Sliced_Matsusaka_wagyu_beef.jpg" class="bd-placeholder-img bd-palceholder-img-lg img-fluid mx-auto"/>
+                    </div>
+                </div>
+                
+                <hr class="section-divider"/>
+                
+                 <div class="row">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="feature-heading">Is coffee good for your health?<br> <span class="text-muted">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. </span></h2>
+                        <p class="lead"><a href="#" class="btn btn-warning" role="button">More</a></p>
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img src="images/320px-A_small_cup_of_coffee.jpg" class="bd-placeholder-img bd-palceholder-img-lg img-fluid mx-auto"/>
+                    </div>
+                </div>
+                
+                <hr class="section-divider"/>
+                
+                 <div class="row">
+                    <div class="col-md-7 ">
+                        <h2 class="feature-heading">What can a Vegan cook?<br> <span class="text-muted">Creamy Vegan butternut squash. A dish without meat and it is loved by kidz and adults can relish also.</span></h2>
+                        <p class="lead"><a href="#" class="btn btn-warning" role="button">More</a></p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/creamy-vegan-butternut-squash-linguine-with-fried-sage-.jpg" class="bd-placeholder-img bd-palceholder-img-lg img-fluid mx-auto"/>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div id="btnBottomCookBook">
+                <button id="btnBottomCookBook" class="btn btn-warning btn-lg  p-3 " data-bs-toggle="modal" data-bs-target="#enroll">Cook Book</button>
+           </div>
+            
+            <footer class="p-5 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">Copyright &copy; 2021 Bontle Selogetso</p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="far fa-arrow-alt-circle-up h1"></i>
+                </a>
+            </div>
+        </footer>
+        </main>
+        
+        <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p  class="lead">Fill in this form and you will recieve an email of the cook book</p>
+                  <form>
+                      <div class="mb-3">
+                          <label for="first-name" class="col-form-label">
+                              First Name:
+                          </label>
+                          <input class="form-control" id="first-name"/>
+                      </div>
+                      
+                      <div class="mb-3">
+                          <label for="last-name" class="col-form-label">
+                              Last Name:
+                          </label>
+                          <input class="form-control" id="last-name"/>
+                      </div>
+                      
+                      <div class="mb-3">
+                          <label for="email" class="col-form-label">
+                              Email:
+                          </label>
+                          <input class="form-control" id="email"/>
+                      </div>
+                      
+                      <div class="mb-3">
+                          <label for="first-name" class="col-form-label">
+                              Phone:
+                          </label>
+                          <input class="form-control" id="phone"/>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+     </body>
+</html>
